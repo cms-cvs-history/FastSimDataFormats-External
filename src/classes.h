@@ -20,6 +20,13 @@ namespace {
       edm::ClonePolicy<FastTrackerCluster> >, 
       edm::ClonePolicy<FastTrackerCluster> > >  d7;
       
+    edm::Ref<edm::RangeMap<unsigned int,edm::OwnVector<FastTrackerCluster,
+      edm::ClonePolicy<FastTrackerCluster> >,edm::ClonePolicy<FastTrackerCluster> >,FastTrackerCluster,
+      edm::refhelper::FindUsingAdvance<edm::RangeMap<unsigned int,edm::OwnVector<FastTrackerCluster,
+      edm::ClonePolicy<FastTrackerCluster> >,edm::ClonePolicy<FastTrackerCluster> >,FastTrackerCluster> > d8;
+
+
+
       
       } 
 }
